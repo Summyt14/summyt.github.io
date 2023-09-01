@@ -301,16 +301,17 @@
 
 
 document.getElementById("defaultOpen").click();
-function openCity(evt, cityName) {
+document.getElementById("defaultOpen2").click();
+function openTab(evt, tabName, tabClass, tabLinks) {
 	var i, tabcontent, tablinks;
-	tabcontent = document.getElementsByClassName("tabcontent");
+	tabcontent = document.getElementsByClassName(tabClass);
 	for (i = 0; i < tabcontent.length; i++) {
 		tabcontent[i].style.display = "none";
 	}
-	tablinks = document.getElementsByClassName("tablinks");
+	tablinks = document.getElementsByClassName(tabLinks);
 	for (i = 0; i < tablinks.length; i++) {
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
 	}
-	document.getElementById(cityName).style.display = "block";
+	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
 }

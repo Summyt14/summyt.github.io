@@ -30,7 +30,7 @@
 
 	<!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="images/icon.png">
 
 </head>
 
@@ -91,7 +91,8 @@
 
 		<ul class="intro-social">
 			<li><a href="https://summyt.itch.io/" target="_blank"><i class="fa-brands fa-itch-io fa-1x"></i></a></li>
-			<li><a href="https://twitter.com/Summyt14" target="_blank"><i class="fa-brands fa-twitter fa-1x"></i></a></li>
+			<li><a href="https://twitter.com/Summyt14" target="_blank"><i class="fa-brands fa-twitter fa-1x"></i></a>
+			</li>
 			<li><a href="https://github.com/Summyt14" target="_blank"><i class="fa-brands fa-github fa-1x"></i></a></li>
 		</ul> <!-- /intro-social -->
 
@@ -168,7 +169,8 @@
 		<div class="row button-section">
 			<div class="col-twelve">
 				<a href="#contact" title="Contact Me" class="button stroke smoothscroll">Contact Me</a>
-				<a href="Jose_Siopa_CV.pdf" target="_blank" title="Download CV" class="button button-primary">Download
+				<a href="pdfs/Jose_Siopa_CV.pdf" target="_blank" title="Download CV"
+					class="button button-primary">Download
 					CV</a>
 			</div>
 		</div>
@@ -191,11 +193,14 @@
 			<br><br>
 
 			<div class="tab">
-				<button class="tablinks" onclick="openCity(event, 'PLanguages')" id="defaultOpen">Programming
+				<button class="tablinks" onclick="openTab(event, 'PLanguages', 'tabcontent', 'tablinks')"
+					id="defaultOpen">Programming
 					Languages</button>
-				<button class="tablinks" onclick="openCity(event, 'Engines')">Engines</button>
-				<button class="tablinks" onclick="openCity(event, 'Tech')">Technologies & Concepts</button>
-				<button class="tablinks" onclick="openCity(event, 'SSkills')">Soft Skills</button>
+				<button class="tablinks" onclick="openTab(event, 'Engines', 'tabcontent', 'tablinks')">Engines</button>
+				<button class="tablinks" onclick="openTab(event, 'Tech', 'tabcontent', 'tablinks')">Technologies &
+					Concepts</button>
+				<button class="tablinks" onclick="openTab(event, 'SSkills', 'tabcontent', 'tablinks')">Soft
+					Skills</button>
 			</div>
 			<br>
 			<div id="PLanguages" class="tabcontent">
@@ -399,104 +404,601 @@
    ================================================== -->
 	<section id="portfolio">
 
-		<div class="row section-intro">
+		<div class="row section-intro" style="max-width: 1900px;">
 			<div class="col-twelve">
 
 				<h5>Portfolio</h5>
 				<h1>Check Out Some of My Works.</h1>
 
-
 			</div>
+
 		</div> <!-- /section-intro-->
+		<br><br>
+		<div class="tab section-intro">
+			<button class="tablinks2" onclick="openTab(event, 'Games', 'tabcontent2', 'tablinks2')"
+				id="defaultOpen2">Games</button>
+			<button class="tablinks2" onclick="openTab(event, 'Programs', 'tabcontent2', 'tablinks2')">Programs</button>
+		</div>
+		<br>
+		<div id="Games" class="tabcontent2">
+			<div class="row portfolio-content">
+				<div class="col-twelve">
+					<!-- portfolio-wrapper -->
+					<div id="folio-wrapper" class="block-1-4 block-mob-full stack">
 
-		<div class="row portfolio-content">
-
-			<div class="col-twelve">
-
-				<!-- portfolio-wrapper -->
-				<div id="folio-wrapper" class="block-1-4 block-mob-full stack">
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/salad.jpg" alt="Salad">
-							<a href="#modal-06" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Salad</h3>
-										<span class="folio-types">
-											Branding
-										</span>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/spacewar.png" alt="Spacewar">
+								<a href="#gmodal-01" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Space War</h3>
+											<span class="folio-types">Java Game</span>
+										</div>
 									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
 
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/salad.jpg" alt="Salad">
-							<a href="#modal-06" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Salad</h3>
-										<span class="folio-types">
-											Branding
-										</span>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/deadlybones.png" alt="Deadlybones">
+								<a href="#gmodal-02" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Deadly Bones</h3>
+											<span class="folio-types">Unity Game</span>
+										</div>
 									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
 
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/salad.jpg" alt="Salad">
-							<a href="#modal-06" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Salad</h3>
-										<span class="folio-types">
-											Branding
-										</span>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/cute.png" alt="Cute">
+								<a href="#gmodal-03" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Cute Little Devil</h3>
+											<span class="folio-types">Android Game</span>
+										</div>
 									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/minecraft.png" alt="Minecraft">
+								<a href="#gmodal-04" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Procedural Generation in Minecraft</h3>
+											<span class="folio-types">Unity Game</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/codeofiga.png" alt="codeofiga">
+								<a href="#gmodal-05" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">The Code of Iga</h3>
+											<span class="folio-types">Unity Game</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/hooked.png" alt="hooked">
+								<a href="#gmodal-06" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Hooked On Robots</h3>
+											<span class="folio-types">Unity Game</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/supermario.jpg" alt="supermario">
+								<a href="#gmodal-07" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Automated Super Mario</h3>
+											<span class="folio-types">Python Game</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<!-- modal popups - begin
+					============================================================= -->
+
+						<div id="gmodal-01" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-spacewar.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Space War</h4>
+								<p>A game made in Java with the library Processing. You need to shoot everything to
+									avoid
+									being destroyed.</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Java</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Space-War" target="_blank">Source Code</a>
+								<a href="pdfs/SpaceWar.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-01 -->
+
+						<div id="gmodal-02" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-deadlybones.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Deadly Bones</h4>
+								<p>A game made in Unity. You've reborn as an avengeful skeleton that wants to fight
+									anyone.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Unity, C#</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://youtu.be/n3ANUray-PU?si=R-81XD70JLk79fk9" target="_blank">Gameplay
+									Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-02 -->
+
+						<div id="gmodal-03" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-cute.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Cute Little Devil</h4>
+								<p>This game is a mobile 2D platformer with melee combat. The main objective is to
+									collect the key and open the chest to progress to the next level.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Android Studio,
+									Kotlin</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Cute-Little-Devil" target="_blank">Source Code</a>
+								<a href="https://summyt.itch.io/cute-little-devil" target="_blank">Game Page</a>
+								<a href="pdfs/CuteLittleDevil.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-03 -->
+
+						<div id="gmodal-04" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-minecraft.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Procedural Generation in Minecraft</h4>
+								<p>A basic minecraft copy made in Unity to explore procedural generation.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Unity, C#</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Procedural-Generation-in-Minecraft"
+									target="_blank">Source Code</a>
+								<a href="pdfs/Minecraft.pdf" target="_blank">Report</a>
+								<a href="https://youtu.be/nxhWZsBBzFI?si=6CwZCbpMPjtYxKNs" target="_blank">Gameplay
+									Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-04 -->
+
+						<div id="gmodal-05" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-codeofiga.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>The Code of Iga</h4>
+								<p>The Code of Iga is a third-person game set in a futuristic prison. The player takes
+									on the role of the Chosen One that got captured and locked because he is an Iga
+									ninja (umbrella term for ninjutsu and jujutsu traditions that come from the Iga
+									region). The enemy force is trying to discover all his secrets so that they can
+									become the strongest unit in the universe.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Unity, C#</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/The-Code-of-Iga" target="_blank">Source Code</a>
+								<a href="pdfs/TheCodeofIga.pdf" target="_blank">Report</a>
+								<a href="https://www.youtube.com/watch?v=SUeNzwYPzhU" target="_blank">Gameplay
+									Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-05 -->
+
+						<div id="gmodal-06" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-hooked.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Hooked On Robots</h4>
+								<p>Robots came from other planet to conquer your city. You must defeat all of them to
+									save it. However, you only have a grappling hook to do so.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Unity, C#</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Hooked-on-Robots" target="_blank">Source Code</a>
+								<a href="https://summyt.itch.io/hooked-on-robots" target="_blank">Game Page</a>
+								<a href="https://youtu.be/hGZqtcdG1ec?si=BynL-hirvP871JOs" target="_blank">Gameplay
+									Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-06 -->
+
+						<div id="gmodal-07" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-supermario.jpg" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Automated Super Mario</h4>
+								<p>A python game where an artificial agent was created to play the game for us.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Game, Unity, C#,
+									Artificial Intelligence</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Super-Mario-IAJ" target="_blank">Source Code</a>
+								<a href="pdfs/SuperMario.pdf" target="_blank">Report</a>
+								<a href="https://youtu.be/SqZcPbr3HUk?si=jOa7emCJMmBovpKQ" target="_blank">Gameplay
+									Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-07 -->
+
+						<!-- modal popups - end
+					============================================================= -->
+
+					</div> <!-- /portfolio-wrapper -->
+
+				</div> <!-- /twelve -->
+
+			</div> <!-- /portfolio-content -->
+		</div>
+
+		<div id="Programs" class="tabcontent2">
+			<div class="row portfolio-content">
+				<div class="col-twelve">
+					<!-- portfolio-wrapper -->
+					<div id="folio-wrapper" class="block-1-4 block-mob-full stack">
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/modulation.png" alt="Modulation">
+								<a href="#pmodal-01" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title" style="font-size: 24px;">Digital Modulation and
+												Demodulation</h3>
+											<span class="folio-types">Python Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/imdb.jpg" alt="imdb">
+								<a href="#pmodal-02" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">IMDb Comments Analyzer</h3>
+											<span class="folio-types">Machine Learning Python Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/ev3.jpg" alt="ev3">
+								<a href="#pmodal-03" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Java Threads Using EV3</h3>
+											<span class="folio-types">Java Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/motion.png" alt="motion">
+								<a href="#pmodal-04" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title" style="font-size: 24px;">Motion and Path Detection
+											</h3>
+											<span class="folio-types">Python Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/fire.jpg" alt="fire">
+								<a href="#pmodal-06" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Fire Watcher</h3>
+											<span class="folio-types">Android Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/atmosvideo.png" alt="Atmosvideo">
+								<a href="#pmodal-07" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Atmosvideo</h3>
+											<span class="folio-types">Python Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/thymio.png" alt="Thymio">
+								<a href="#pmodal-08" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title" style="font-size: 24px;">Thymio Robot Shape Finder
+											</h3>
+											<span class="folio-types">Python Program</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<!-- modal popups - begin
+					============================================================= -->
+
+						<div id="pmodal-01" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-modulation.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Digital Modulation and Demodulation</h4>
+								<p>A ipython project that recreates errors when sending signals, and tries to correct
+									them.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, Jupyter Notebook,
+									Digital Signals</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Digital-Modulation-and-Demodulation"
+									target="_blank">Source Code</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-01 -->
+
+						<div id="pmodal-02" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-imdb.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>IMDb Comments Analyzer</h4>
+								<p>A machine learning python program trained to classify IMDb comments as positive or
+									negative, or find comments by topic.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, Jupyter Notebook,
+									Machine Learning</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/IMDB-Comments-Analyzer" target="_blank">Source
+									Code</a>
+								<a href="pdfs/IMDB.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-02 -->
+
+						<div id="pmodal-03" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-ev3.jpg" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Java Threads Using EV3</h4>
+								<p>Java program that uses the principles of threading to send and receive messages. It
+									was
+									tested using Mindstorm EV3 robots playing simon says.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Java, Threading,
+									Object Oriented Programming</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Java-Threads-Using-EV3" target="_blank">Source
+									Code</a>
+								<a href="pdfs/EV3.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-03 -->
+
+						<div id="pmodal-04" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-motion.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Motion and Path Detection</h4>
+								<p>A python program that detects movement and saves the trajectories of the moving
+									objects.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, OpenCV</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Motion-and-Path-Detection" target="_blank">Source
+									Code</a>
+								<a href="pdfs/Motion.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-04 -->
+
+						<div id="pmodal-05" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-motion.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Motion and Path Detection</h4>
+								<p>A python program that detects movement and saves the trajectories of the moving
+									objects.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, OpenCV</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Motion-and-Path-Detection" target="_blank">Source
+									Code</a>
+								<a href="pdfs/Motion.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-05 -->
+
+						<div id="pmodal-06" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-fire.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Fire Watcher</h4>
+								<p>Mobile application for the prevention of fires and information about affected areas.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Android Studio, Kotlin
 								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
+							</div>
 
-					<!-- modal popups - begin
-	            ============================================================= -->
+							<div class="link-box">
+								<a href="https://github.com/TheBinoLaden/Projecto-CM-Fire" target="_blank">Source
+									Code</a>
+								<a href="pdfs/FireWatcher.pdf" target="_blank">Proposal Presentation</a>
+								<a href="https://youtu.be/uKclphsMlkA" target="_blank">Demonstration Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-06 -->
 
-					<div id="modal-06" class="popup-modal slider mfp-hide">
+						<div id="pmodal-07" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-atmosvideo.png" alt="" />
+							</div>
 
-						<div class="media">
-							<img src="images/portfolio/modals/m-salad.jpg" alt="" />
-						</div>
+							<div class="description-box">
+								<h4>Atmosvideo</h4>
+								<p>Application that automatically generates music for a video choosen by the user.
+								</p>
 
-						<div class="description-box">
-							<h4>Salad</h4>
-							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-								auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, OpenCV, Fluidsynth
+								</div>
+							</div>
 
-							<div class="categories">Branding</div>
-						</div>
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Atmosvideo" target="_blank">Source
+									Code</a>
+								<a href="pdfs/Atmosvideo.pdf" target="_blank">Report</a>
+								<a href="https://youtu.be/PSwCtOYD1c8" target="_blank">Demonstration Video</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-07 -->
 
-						<div class="link-box">
-							<a href="http://www.behance.net">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
+						<div id="pmodal-08" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/m-thymio.png" alt="" />
+							</div>
 
-					</div> <!-- /modal-06 -->
+							<div class="description-box">
+								<h4>Thymio Robot Shape Finder</h4>
+								<p>A python application that uses the Thymio robot and a camera to find shapes drawn in
+									papers.
+								</p>
+
+								<div class="categories"><i class="fa-solid fa-tag fa-1x"></i> Python, OpenCV, Thymio
+								</div>
+							</div>
+
+							<div class="link-box">
+								<a href="https://github.com/Summyt14/Thymio-Robot-Shape-Finder" target="_blank">Source
+									Code</a>
+								<a href="pdfs/Thymio.pdf" target="_blank">Report</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-08 -->
 
 
-					<!-- modal popups - end
-	            ============================================================= -->
+						<!-- modal popups - end
+					============================================================= -->
 
-				</div> <!-- /portfolio-wrapper -->
+					</div> <!-- /portfolio-wrapper -->
 
-			</div> <!-- /twelve -->
+				</div> <!-- /twelve -->
 
-		</div> <!-- /portfolio-content -->
+			</div> <!-- /portfolio-content -->
+		</div>
 
 	</section> <!-- /portfolio -->
 
@@ -558,9 +1060,12 @@
 				<h2 style="text-align: center;">Thank you for checking out my website!</h2>
 
 				<ul class="footer-social">
-					<li><a href="https://summyt.itch.io/" target="_blank"><i class="fa-brands fa-itch-io fa-1x"></i></a></li>
-					<li><a href="https://twitter.com/Summyt14" target="_blank"><i class="fa-brands fa-twitter fa-1x"></i></a></li>
-					<li><a href="https://github.com/Summyt14" target="_blank"><i class="fa-brands fa-github fa-1x"></i></a></li>
+					<li><a href="https://summyt.itch.io/" target="_blank"><i class="fa-brands fa-itch-io fa-1x"></i></a>
+					</li>
+					<li><a href="https://twitter.com/Summyt14" target="_blank"><i
+								class="fa-brands fa-twitter fa-1x"></i></a></li>
+					<li><a href="https://github.com/Summyt14" target="_blank"><i
+								class="fa-brands fa-github fa-1x"></i></a></li>
 				</ul>
 
 				<div class="tab-full">
