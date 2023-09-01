@@ -2148,7 +2148,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #757575;
+	background: #383737;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2160,6 +2160,7 @@ header .logo a {
 }
 
 #portfolio .folio-item img {
+	height: 275px;
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
